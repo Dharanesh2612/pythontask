@@ -21,7 +21,7 @@ def main():
     {'name':'prerna','age':15}
     ]
 
-    name_list.sort(key=lambda x : x['name'])
+    name_list.sort(key=lambda x : x['age'])
     print(name_list)
 if __name__ =="__main__":
        main()
